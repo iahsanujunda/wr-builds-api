@@ -14,13 +14,9 @@ class BaseConfig:
     SECRET_KEY = getenv("SECRET_KEY", "SomeSekrit!")
     TESTING = False
     CORS_ORIGINS = [
-        "http://localhost",
-        "http://127.0.0.1",
-        "http://localhost:9999",
-        "http://35.189.152.12",
-        "http://35.194.118.131",
-        "http://10.146.0.123",
-        "http://10.146.0.124",
+        "http://localhost:5000",
+        "http://127.0.0.1:5000",
+        "http://0.0.0.0:5000",
     ]
 
 
